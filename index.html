@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form">
+        <H4 class="survey">SURVEY FORM</H4>
+        <div class="heading">
+            <h5>Fill the form carefully <br>
+             All fields are mandatory to fill </h5>
+        </div>
+    <form action="  https://enw7u145b8im9.x.pipedream.net/" method="post" >
+        <div class="name">
+        <p>Name</p>         
+        <label for="firt_name" >First Name: </label>
+        <input type="text" class="first_name" name="first_name" id="first_name" placeholder="Enter your first name"required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="last_name">Last Name: </label>
+        <input type="text" class="last_name" id="last_name" name="last_name" placeholder="Enter your last name">
+        </div>
+        <div class="address">
+        <p>Address</p>
+            <label for="street_address">Street Address: </label>
+            <input type="text" name="street_address"  class="street_address" id="street_address" placeholder="Enter your street address"required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="city">City: </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input  type="text" name="city" class="city" id="city" placeholder="Enter your city"required><br>
+            
+            <label for="state">State: </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="state" class="state" id="state" placeholder="Enter your state"required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
+            <label for="pin_code">Pincode: </label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="number" name="pin_code" class="pin_code" id="pin_code" placeholder="Enter your pincode"required>
+        </div>
+        <div class="contact_number">
+            <p>Contact</p>
+            <label for="contact_number">Contact number: </label>
+            <input type="tel" name="contact_number" class="contact_number" id="contact_number" placeholder="Enter your contact number"required>
+        </div>
+        <div class="rating">
+            <p>Rating</p>
+            <label for="quality_of_products_received_rating">Quality of product</label>
+            <select name="quality_of_products_received_rating" id="quality_of_products_received_rating" autofocus required>
+                <option value="select">select</option>
+                <option value="bad">bad</option>
+                <option value="good">good</option>
+                <option value="excellent">excellent</option> 
+              </select>
+            <label for="delivery_rating">Delivery</label>
+            <select name="delivery_rating" id="delivery_rating" autofocus required>
+                <option value="select">select</option>
+                <option value="bad">bad</option>
+                <option value="good">good</option>
+                <option value="excellent">excellent</option>
+              </select>
+            <label for="value_for_money_rating">Value for money</label>
+            <select name="value_for_money_rating" id="value_for_money_rating" autofocus required>
+                <option value="select">select</option>
+                <option value="bad">bad</option>
+                <option value="good">good</option>
+
+                <option value="excellent">excellent</option>
+              </select><br><br>
+            <label for="btn"></label>
+            <input type="submit" class="btn" id="btn">
+        </div>
+        </form>
+    </div>
+</body>
+</html>

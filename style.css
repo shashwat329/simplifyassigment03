@@ -1,0 +1,62 @@
+body {
+    background-image: url(photo-1506619216599-9d16d0903dfd.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.survey {
+    text-align: center;
+}
+.form {
+    border: 3px solid white;
+    outline: 3px solid white;
+    outline-offset: 5px;
+    width: 599px;
+    background-color: white;
+}
+.form{
+    margin: 120px 0px 0px 400px;
+}
+
+  input[type=text]:hover {
+    background-color: rgb(214, 201, 202);
+  }
+  input[type=number]:hover {
+    background-color: rgb(214, 201, 202);
+  }
+  input[type=dropdown]:hover {
+    background-color: rgb(214, 201, 202);
+  }
+  input[type=tel]:hover {
+    background-color: rgb(214, 201, 202);
+  }
+  input[type=tel] {
+    border-radius: 4px 4px 4px 5px;
+    margin-left: 2px;
+
+  }
+  input[type=number] {
+    border-radius: 4px 4px 4px 5px;
+    
+  }
+  input[type=text] {
+    border-radius: 4px 4px 4px 5px;
+    margin-left: 20px;
+    width: 150px;
+    margin-top: 20px;
+
+  }
+  input[type=dropdown] {
+    border-radius: 4px 2px 2px 2px;
+  }
+#state input[type=text]{
+    margin: 10px 0px 0px 0px;
+}
+.btn {
+  color: rgb(204, 184, 188);
+  background-color:rgb(92, 60, 65);
+  font-size: larger;
+  border-radius: 5px 5px;
+  position: relative;
+  left: 40%
+}
+  
